@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,15 +9,22 @@ body {
   line-height: 1.4;
 }
 
-/* .container {
-        width: 800px;
-        margin: 0 auto;
-      } */
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
 
 /* PRODUCT */
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  /* padding-top: 20px; */
+}
+
 .product {
   border: 4px solid black;
-  width: 800px;
+  width: 825px;
   margin: 50px auto;
   position: relative;
 }
@@ -35,15 +43,74 @@ body {
 }
 
 /* PRODUCT INFORMATION */
+.product-details {
+  width: 243px;
+  float: left;
+  margin-bottom: 5px;
+}
+
 .product-price {
   font-size: 24px;
+  float: left;
+}
+
+.product-detail {
+  /* border: 2px solid red; */
 }
 
 .product-shipping {
   color: #777;
   font-weight: bold;
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  float: right;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.product-description {
+  clear: both;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 2px;
+}
+
+/* STYLING BOXES */
+/* .boxes {
+  clear: both;
+} */
+
+.box {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
 }
 
 .sales {
@@ -70,11 +137,16 @@ body {
   text-decoration: none;
 }
 
+.more-info {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 /* PRODUCT DETAILS */
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin-top: 30px;
+  margin: 5px 0;
 }
 
 .details-list {
